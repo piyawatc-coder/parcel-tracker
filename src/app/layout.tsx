@@ -28,8 +28,11 @@ export default function RootLayout({
               <a href="/" className="text-ink/70 hover:text-brand">
                 รายการทั้งหมด
               </a>
-              <a href="/new" className="text-brand hover:underline">
+              <a href="/new" className="text-ink/70 hover:text-brand">
                 + จดรายการใหม่
+              </a>
+              <a href="/master" className="text-brand hover:underline">
+                จัดการข้อมูลหลัก
               </a>
             </nav>
           </header>
